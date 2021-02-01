@@ -10,7 +10,7 @@ class MyStack extends TerraformStack {
           region: 'us-east-2'
       });
 
-      new Instance(this, 'Hello', {
+      new Instance(this, 'testawsec2', {
           ami: "ami-2757f631",
           instanceType: "t2.micro"
       });
